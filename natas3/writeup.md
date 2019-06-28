@@ -16,3 +16,5 @@ De esa forma se indica que no se indexe el directorio `s3cr3t`. Si vamos a ese d
 La idea es usar la búsqueda de Google con operadores avanzados para encontrar archivos de configuración o con información sensible. Más info [acá](https://en.wikipedia.org/wiki/Google_hacking).
 
 En este caso podemos Googlear: `site:http://natas3.natas.labs.overthewire.org/ filetype:txt`. Suponiendo que puede haber archivos de texto porque en el nivel anterior la contraseña estaba en un archivo de este tipo.
+
+> __Nota:__ No se por qué aparece en la búsqueda el archivo si en robots.txt ese directorio no está permitido... Más allá de eso, en general los google dorks son una estrategia válida que puede resultar útil.
