@@ -1,6 +1,6 @@
 # natasWriteups
 
-Writeups del wargame Natas de OverTheWire en español. Porque no hay tanto material en español sobre estos temas.
+Writeups del wargame [Natas](http://overthewire.org/wargames/natas/) de OverTheWire en español. Porque no hay tanto material en español sobre estos temas.
 
 Para resolver estos desafíos es útil conocer un poco de lenguajes utilizados en programación web (html, javascript, php, etc) y entender a grandes rasgos como funciona el protocolo [http](https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto). De todas formas, en cada nivel trato de explicar o al menos introducir los conceptos necesarios. Hay buenos tutoriales en https://www.w3schools.com/.
 
