@@ -36,7 +36,7 @@ if(array_key_exists("username", $_REQUEST)) {
 }
 ```
 
-Podemos ver que el código pregunta si en el array `$_REQUEST` esta definida la variable `username`. De la documentación de [php](https://www.php.net/manual/en/reserved.variables.request.php) podemos ver que este array contiene los datos del request HTTP sin diferenciar el método (GET, POST o COOKIE).
+Podemos ver que el código pregunta si en el array `$_REQUEST` esta definida la variable `username`. De la documentación de [php](https://www.php.net/manual/es/reserved.variables.request.php) podemos ver que este array contiene los datos del request HTTP sin diferenciar el método (GET, POST o COOKIE).
 Sin embargo, vemos que si mediante un request GET pasamos el parámetro debug la consulta se muestra.
 Esto nos da la idea que podemos pasar tanto el nombre de usuario como activar el modo debug mediante un request GET. Por ejemplo: [http://natas15.natas.labs.overthewire.org/?username=octa&debug](http://natas15.natas.labs.overthewire.org/?username=octa&debug).
 
